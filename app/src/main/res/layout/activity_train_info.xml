@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaydeep.rail2.MainActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Train-Info"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Train No."
+            android:textSize="20dp"
+            android:layout_below="@+id/part1"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/part1"
+            android:layout_toRightOf="@+id/tv1"
+            android:layout_alignBaseline="@+id/tv1"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:text="Engine No."
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv2"
+            android:layout_alignBaseline="@+id/tv2"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:text="Base"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv2"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv3"
+            android:layout_alignBaseline="@+id/tv3"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:text="Load"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv4"
+            android:layout_alignBaseline="@+id/tv4"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="OPRS No./MV5 No."
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv5"
+            android:layout_alignBaseline="@+id/tv5"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:text="From Station"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv6"
+            android:layout_alignBaseline="@+id/tv6"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:text="To Station"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv7"
+            android:layout_alignBaseline="@+id/tv7"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv7"
+            android:text="Departure Time"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv7"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv8"
+            android:layout_alignBaseline="@+id/tv8"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="datetime"
+            />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:text="Arrival Time"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/et9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv9"
+            android:layout_alignBaseline="@+id/tv9"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="datetime"
+            />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv9"
+            android:text="OK"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</ScrollView>
