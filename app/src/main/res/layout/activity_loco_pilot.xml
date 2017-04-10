@@ -17,7 +17,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:text="Loco Pilot Info"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:background="#D39090"/>
 
 
         <TextView
@@ -85,7 +86,8 @@
             android:layout_alignBaseline="@+id/tv3"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -108,7 +110,8 @@
             android:layout_alignBaseline="@+id/tv4"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -125,11 +128,12 @@
             android:id="@+id/et5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv4"
-            android:layout_marginTop="30dp"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -152,7 +156,8 @@
             android:layout_alignBaseline="@+id/tv6"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -175,7 +180,8 @@
             android:layout_alignBaseline="@+id/tv7"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -198,7 +204,8 @@
             android:layout_alignBaseline="@+id/tv8"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -215,11 +222,12 @@
             android:id="@+id/et9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv8"
-            android:layout_marginTop="30dp"
+            android:layout_below="@+id/tv9"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -242,7 +250,8 @@
             android:layout_alignBaseline="@+id/tv10"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -259,11 +268,12 @@
             android:id="@+id/et11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tv10"
-            android:layout_marginTop="60dp"
+            android:layout_below="@+id/tv11"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="15dp"
             android:ems="10"
-            android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -299,6 +309,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
             />
+
         <EditText
             android:id="@+id/et13"
             android:layout_width="wrap_content"
@@ -310,6 +321,8 @@
             android:layout_marginLeft="15dp"
             android:ems="10"
             android:inputType="date"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
             />
 
         <TextView
@@ -328,19 +341,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_below="@+id/tv13"
-            android:layout_marginTop="85dp"
+            android:layout_below="@+id/tv14"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="15dp"
             >
-            <RadioButton android:id="@+id/yes"
+            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="YES"
                 />
-            <RadioButton android:id="@+id/no"
+            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO"
+                android:layout_marginLeft="15dp"
                 />
         </RadioGroup>
 
@@ -349,7 +363,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv14"
-            android:text="OK"
+            android:text="SAVE"
             android:textSize="25dp"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="15dp"

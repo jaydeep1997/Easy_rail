@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaydeep.rail2.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:text="Loco Pilot’s knowledge to be tested in following:-"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="i) Protection of adjacent line on top priority during accident."
+            android:textSize="20dp"
+            android:layout_below="@+id/tv"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv1"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ii) Use of flasher light, when train stopped in section."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg1"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv2"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="iii) Train delayed in block section."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg2"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="iv) Train stalled in rising gradient."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg3"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="v) Procedure to be followed to pass IBS at ON."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg4"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="vi) Procedure to be followed when experienced jerked in section."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg5"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="vii) Ghat working rule."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg6"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv7"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="viii) Procedure for working load without BPC."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg7"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv8"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ix) Loco Pilot’s duty during TSL working and all communication failure."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg8"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv9"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="x) Working of trains during train parting."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg9"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv10"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="xi) Knowledge of whistle codes."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg10"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv11"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="xii) Speed of train when headlight bulb is fused."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg11"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv12"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="xiii) Working of train when headlight and marker light both are failed or not working."
+            android:textSize="20dp"
+            android:layout_below="@+id/rg12"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv13"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="xiv) Whether Loco Pilot and Assistant Loco Pilot are in habit towrite defects in signals and track in books kept in lobbies?"
+            android:textSize="20dp"
+            android:layout_below="@+id/rg13"
+            android:layout_marginLeft="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv14"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                />
+            <RadioButton android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg14"
+            android:text="SAVE"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</ScrollView>

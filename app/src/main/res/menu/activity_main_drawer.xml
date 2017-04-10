@@ -9,11 +9,29 @@
             android:id="@+id/nav_loco"
             android:title="Loco Pilot Information" />
         <item
+            android:id="@+id/nav_assistant"
+            android:title="Assistant Loco Pilot Information" />
+        <item
             android:id="@+id/nav_personal"
             android:title="Personal Store" />
         <item
-            android:id="@+id/nav_assistant"
-            android:title="Assistant Loco Pilot Information" />
+            android:id="@+id/nav_safety"
+            android:title="Availability of safety equipments" />
+        <item
+            android:id="@+id/nav_part_1"
+            android:title="Part-1" />
+        <item
+            android:id="@+id/nav_part_2"
+            android:title="Part-2" />
+        <item
+            android:id="@+id/nav_part_3"
+            android:title="Part-3" />
+        <item
+            android:id="@+id/nav_knowledge"
+            android:title="Loco Pilot's Knowledge" />
+        <item
+            android:id="@+id/nav_graph"
+            android:title="Graph" />
     </group>
 
     <item android:title="Communicate">
